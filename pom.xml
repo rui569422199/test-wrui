@@ -42,30 +42,32 @@
 			    <artifactId>spring-boot-starter-jdbc</artifactId>
 			    <version>${project.springboot.version}</version>
 			</dependency>
-			<dependency>
-				<groupId>mysql</groupId>
-				<artifactId>mysql-connector-java</artifactId>
-				<scope>runtime</scope>
-			</dependency>
 			<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 			<dependency>
 			    <groupId>mysql</groupId>
 			    <artifactId>mysql-connector-java</artifactId>
 			    <version>${project.mysql.version}</version>
+			    <scope>runtime</scope>
 			</dependency>
-			
-  	</dependencies>
-  </dependencyManagement>
-    <dependencies>
-		<dependency>
+			 <dependency>
+				<groupId>org.springframework.boot</groupId>
+		    	<artifactId>spring-boot-starter-data-jpa</artifactId>
+		    	<version>${project.springboot.version}</version>
+			</dependency>
+			<dependency>
 				<groupId>org.springframework.boot</groupId>
 		    	<artifactId>spring-boot-starter-data-mongodb</artifactId>
+		    	<version>${project.springboot.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-mongodb -->
 			<dependency>
 			    <groupId>org.springframework.data</groupId>
 			    <artifactId>spring-data-mongodb</artifactId>
+			    <version>${project.spring.mongo.version}</version>
 			</dependency>
+  	</dependencies>
+  </dependencyManagement>
+    <dependencies>
 			<dependency>
 			   	<groupId>org.springframework.boot</groupId>
 			   	<artifactId>spring-boot-starter-test</artifactId>
@@ -75,6 +77,15 @@
 		        <groupId>org.springframework.boot</groupId>
 		        <artifactId>spring-boot-starter-tomcat</artifactId>
 	        </dependency>
+	        <dependency>
+			 <groupId>com.alibaba</groupId>
+			 <artifactId>fastjson</artifactId>
+		</dependency>
+		<dependency>
+			  <groupId>personal.wrui</groupId>
+			  <artifactId>wrui-core</artifactId>
+			  <version>0.0.1-SNAPSHOT</version>
+		</dependency>
     </dependencies>
   <build>
         <plugins>
