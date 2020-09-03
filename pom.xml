@@ -27,6 +27,7 @@
         <project.zookeeper.version>3.6.1</project.zookeeper.version>
         <project.spring.dubbo.version>2.0.0</project.spring.dubbo.version>
         <start-class>personal.wrui.AppBeanUtil</start-class>
+        <zkclient.version>0.11</zkclient.version>
     </properties>
     <dependencyManagement>
   		<dependencies>
@@ -77,6 +78,12 @@
 				<groupId>org.apache.zookeeper</groupId>
 				<artifactId>zookeeper</artifactId>
 				<version>${project.zookeeper.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.101tec/zkclient -->
+			<dependency>
+			    <groupId>com.101tec</groupId>
+			    <artifactId>zkclient</artifactId>
+			    <version>${zkclient.version}</version>
 			</dependency>
   	</dependencies>
   </dependencyManagement>
