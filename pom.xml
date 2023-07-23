@@ -23,7 +23,7 @@
         <project.springboot.version>1.5.2.RELEASE</project.springboot.version>
         <project.spring.mongo.version>1.10.23.RELEASE</project.spring.mongo.version>
         <project.fastjson.version>1.2.54</project.fastjson.version>
-        <project.mysql.version>5.1.49</project.mysql.version>
+        <project.mysql.version>8.0.28</project.mysql.version>
         <project.zookeeper.version>3.6.1</project.zookeeper.version>
         <project.spring.dubbo.version>2.0.0</project.spring.dubbo.version>
         <start-class>personal.wrui.AppBeanUtil</start-class>
