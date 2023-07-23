@@ -20,7 +20,7 @@
     </modules> -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.springboot.version>1.5.2.RELEASE</project.springboot.version>
+        <project.springboot.version>2.5.12</project.springboot.version>
         <project.spring.mongo.version>1.10.23.RELEASE</project.spring.mongo.version>
         <project.fastjson.version>1.2.54</project.fastjson.version>
         <project.mysql.version>5.1.49</project.mysql.version>
